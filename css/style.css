@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* shouye: */
+img.shouye {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+
+/*导航栏：*/
+.nav {
+    width: 100%;
+    height: 50px;
+    line-height: 60px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -15px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+
+}
+
+
+.title {
+    width: 40%;
+    height: 45px;
+    line-height: 50px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.title::after{
+    content: '――――――――――――――';
+     margin-left: 30px;
+}
+.title::before{
+    content:'――――――――――――――';
+    margin-right: 30px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: pink;
+    font-size: 25px;
+    color: white;
+}
+
+
+.view {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* 间距 */
+    justify-content: space-between; /* 使图片均匀分布 */
+}
+
+.view img {
+    width: calc(100% / 10); /* 每张图片占总宽度的1/10 */
+    height: auto; /* 保持图片比例 */
+    object-fit: cover; /* 确保图片按比例缩放并覆盖整个分配的空间 */
+}
+
+
+img:hover {
+    transition: all 0.3s;
+    box-shadow: 6px 4px 6px slategray;
+    cursor: pointer;
+    transform: rotateZ(2deg);
+    border: 20px solid #ffffff;
+}
+
+
+img.lishi {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.shi-image {
+    font-size: 36px;
+    width: 90%;
+   height: 750px;
+   display: flex; 
+   justify-content: center;
+   margin: 0 auto;
+    border-bottom: 3px saddlebrown;
+}
+
+img.panzhihua {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.beijing {
+    width: 90%;
+   height: 600px;
+   display: flex; 
+   justify-content: center;
+   margin: 0 auto;
+}
+
+.word u1 {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+   }
+
+   .word u1 li {
+    width: 100%;
+    height: 430px;
+    background-color: gold;
+    display: flex;
+   }
+   .word u1 li img {
+    width: 20%;
+    height: 100%;
+   }
+   .word u1 li .right_contents {
+    width: 80%;
+    height: 100%;
+   }
